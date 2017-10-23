@@ -1,0 +1,25 @@
+.section{
+	position: absolute;
+    background: #e8e8e8;
+    width: 65%;
+    height: 51%;
+    right: 30%;
+    top: 41%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 9px 34px -1px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 9px 34px -1px rgba(0,0,0,0.59);
+    box-shadow: 0px 9px 34px -1px rgba(0,0,0,0.59);
+}
+
+.sidebar{
+	background: #04344c;
+    position: absolute;
+    width: 23%;
+    height: 51%;
+    right: 5%;
+    top: 41%;
+    border-radius: 3%;
+    -webkit-box-shadow: 0px 9px 34px -1px rgba(0,0,0,0.59);
+    -moz-box-shadow: 0px 9px 34px -1px rgba(0,0,0,0.59);
+    box-shadow: 0px 9px 34px -1px rgba(0,0,0,0.59);
+}
