@@ -1,29 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8"/>
 	<title>Seguridad Informatica</title>
 	<style type="text/css" link=""></style>
 	<link rel="stylesheet" type="text/css" href="css\style_app.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 </head>
-<body>
+<body ng-app="">
 	<header id="header" class="header">
 		<img class="logo" src="img/logoUNAD.png" alt="Unad">
 		<div class="title">OVI Seguridad Informática</div>
 	</header>
 	<nav class="menu">
 		<ul>
-			<li>Inicio</li>
-			<li>Fundamentos e Importancia</li>
-			<li>Conceptos</li>
-			<li>Consecuencia</li>
+			<li onclick="viewContent('inicio')">Inicio</li>
+			<li onclick="llamarArchivo('importancia')">Importancia</li>
+			<li onclick="viewContent('conceptos')">Conceptos</li>
+			<li onclick="viewContent('consecuencia')">Consecuencia</li>
+			<li onclick="viewContent('multimedia')">Multimedia</li>
+			<li onclick="viewContent('referencias')">Referencias</li>
+			<li onclick="viewContent('colaboradores')">Colaboradores</li>
 		</ul>
 	</nav>
 	
-	<section class="section">
+	<section class="section" id="section">
+	<div ng-include="'inicio.html'"></div>
+		<!--<div class="inicio content" id="inicio">
+			<p>La seguridad informática, también conocida como ciberseguridad o seguridad de tecnologías de la información, es el área relacionada con la informática y
+			la telemática que se enfoca en la protección de la infraestructura computacional y todo lo relacionado con esta y, especialmente, la información contenida en una computadora o circulante a través de las redes de computadoras.1 Para ello existen una serie de estándares, protocolos, métodos, reglas, herramientas y leyes concebidas para minimizar los posibles riesgos a la infraestructura o a la información. La ciberseguridad comprende software (bases de
+			datos, metadatos, archivos), hardware, redes de computadoras y todo lo que la organización valore y signifique un riesgo si esta información confidencial llega a manos de otras personas, convirtiéndose, por ejemplo, en información privilegiada.
+			La definición de seguridad de la información no debe ser confundida con la de
+			«seguridad informática», ya que esta última solo se encarga de la seguridad en el medio informático, pero la información puede encontrarse en diferentes medios o formas, y no solo en medios informáticos.
+			La seguridad informática es la disciplina que se ocupa de diseñar las normas, procedimientos, métodos y técnicas destinados a conseguir un sistema de información seguro y confiable.
+			Puesto simple, la seguridad en un ambiente de red es la habilidad de identificar y eliminar vulnerabilidades. Una definición general de seguridad debe también poner atención a la necesidad de salvaguardar la ventaja organizacional, incluyendo información y equipos físicos, tales como los mismos computadores. Nadie a cargo de seguridad debe determinar quién y cuándo puede tomar acciones
+			Apropiadas sobre un ítem en específico. Cuando se trata de la seguridad de una compañía, lo que es apropiado varía de organización en organización.
+			Independientemente, cualquier compañía con una red debe tener una política de seguridad que se dirija a la conveniencia y la coordinación.
+ 			</p>
+
+		</div>
+		<div class="conceptos content background_content hide" id="conceptos">
+			<p>hola este es el conceptos :) </p>
+			<p>hola este es el conceptos :) </p>
+			<p>hola este es el conceptos :) </p>
+			<p>hola este es el conceptos :) </p>
+			<p>hola este es el conceptos :) </p>
+			<p>hola este es el conceptos :) </p>
+		</div>
+		<div class="consecuencia content background_content hide" id="consecuencia">
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+
+		</div>
+		<div class="multimedia content background_content hide" id="multimedia">
+			<p>hola este es el multimedia :) </p>
+			<p>hola este es el multimedia :) </p>
+			<p>hola este es el multimedia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+		</div>
+		<div class="referencias content background_content hide" id="referencias">
+			<p>hola este es el referencias :) </p>
+			<p>hola este es el referencias :) </p>
+			<p>hola este es el referencias :) </p>
+		</div>
+		<div class="colaboradores content background_content hide" id="colaboradores">
+			<p>hola este es el colaboradores :) </p>
+			<p>hola este es el colaboradores :) </p>
+			<p>hola este es el colaboradores :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+			<p>hola este es el consecuencia :) </p>
+		</div>-->
+
 	</section>
 	<aside class="sidebar">
+		<div>
+			<p>hola este es el importancia :) </p>
+			<p>hola este es el importancia :) </p>
+			<p>hola este es el importancia :) </p>
+			<p>hola este es el importancia :) </p>
+			<p>hola este es el importancia :) </p>
+			<p>hola este es el importancia :) </p>
+		</div>
 	</aside>
-	<footer class="footer">
+	<!--<footer class="footer">
 		<div>
 			<img class="logo_footer" src="img/logoUNADgrisInferior.png" alt="Unad">	
 		</div>
@@ -50,6 +126,8 @@
 				Última actualización ( 2017-10-23 ) © Copyright UNAD 2017  - Powered by Joomla ( Atención al usuario ) ( Política de privacidad ) ( Mapa del sitio )
 			</p>
 		</div>
-	</footer>
+	</footer>-->
+
+	<script src="js/view_content.js"></script>
 </body>
 </html>
