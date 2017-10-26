@@ -1,43 +1,56 @@
 .footer{
 	background: #000000;
-    position: absolute;
     width: 90%;
-    height: 25%;
-    margin: center;
-    margin: auto;
-    left: 5%;
-    top: 95%;
+    /*border-radius: 10px;*/
+    margin-left: 5%;
+    overflow: hidden;
     border-radius: 10px;
+    margin-bottom: 2%;
 }
-.logo_footer{
-	position: absolute;
-    left: 7%;
-    top: 18%;
+
+.footer .div_footer {
+	display: inline-flex;
 }
-.info_sede{
+
+
+.footer .logo_footer{
+	width: 30%
+}
+
+.footer .img_footer{
+	width: 225px;
+	height: 41px;
+	margin-top: 5%;
+    margin-left: 10%;
+}
+
+.footer .info_sede{
+	background: #000000;
 	color: white;
 	font-family: arial;
 	font-size: 12px;
-	width: 27%;
-    right: 41%;
-    position: absolute;
+	width: 35%;
 }
-.phones{
+
+.footer  .info_sede p{
+	padding-right: 39px;
+}
+
+.footer .phones{
+	background: #000000;
 	color: white;
 	font-family: arial;
 	font-size: 12px;
-	width: 29%;
-    right: 6%;
-    position: absolute;
+	width: 35%
 }
-.copyright{
-	font-family: arial;
-	font-size: 12px;
+
+.footer  .phones p{
+	padding-right: 10%;
+}
+
+.footer .copyright {
 	color: white;
 	text-align: center;
-	position: absolute;
-    width: 100%;
-    top: 57%;
-    margin-bottom: 32px;
-    
+    font-family: arial;
+    font-size: 12px;
 }

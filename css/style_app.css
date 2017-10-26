@@ -1,4 +1,5 @@
 @import url("header.css");
-@import url('menu.css');
-@import url('main_content.css');
+@import url('nav.css');
+@import url('section.css');
+@import url('sidebar.css');
 @import url('footer.css');

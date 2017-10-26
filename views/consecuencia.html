@@ -1,0 +1,182 @@
+<div class="consecuencia content background_content" id="consecuencia">
+			<h2>Vulnerable a amenazas</h2>
+			<h3>Clasificación de las amenazas</h3>
+			<p>De forma general podemos agrupar las amenazas en:</p>
+			<ul>
+				<li>Amenazas físicas</li>
+				<li>Amenazas lógicas</li>
+			</ul>
+			<p>Estas amenazas, tanto físicas como lógicas, son materializadas básicamente por:</p>
+			<ul>
+				<li>Las personas</li>
+				<li>Programas específicos</li>
+				<li>Catástrofes naturales</li>
+			</ul>
+			<p>Podemos tener otros criterios de agrupación de las amenazas, como son:</p>
+			<h3>Origen de las amenazas</h3>
+			<ul>
+				<li>Amenazas naturales: inundación, incendio, tormenta, fallo eléctrico, explosión, etc...</li>
+				<li>Amenazas de agentes externos: virus informáticos, ataques de una organización criminal, sabotajes terroristas, disturbios y conflictos sociales, intrusos en la red, robos, estafas, etc...</li>
+				<li>Amenazas de agentes internos: empleados descuidados con una formación inadecuada o descontentos, errores en la utilización de las herramientas y recursos del sistema, etc...</li>
+			</ul>
+			<h3>Intencionalidad de las amenazas</h3>
+			<ul>
+				<li>Accidentes: averías del hardware y fallos del software, incendio, inundación, etc...</li>
+				<li>Errores: errores de utilización, de explotación, de ejecución de procedimientos, etc...</li>
+				<li>Actuaciones malintencionadas: robos, fraudes, sabotajes, intentos de intrusión, etc...</li>
+			</ul>
+			<h3>Naturaleza de las amenazas</h3>
+			<p>La agrupación de las amenazas atendiendo al factor de seguridad que comprometen es la siguiente:</p>
+			<ul>
+				<li>Interceptación</li>
+				<li>Modificación</li>
+				<li>Interrupción</li>
+				<li>Fabricación</li>
+			</ul>
+			<h3>1. Flujo normal de la información</h3>
+			<p>se corresponde con el esquema superior de la figura. Se garantiza:</p>
+			<ul>
+				<li>Confidencialidad: nadie no autorizado accede a la información.</li>
+				<li>Integridad: los datos enviados no se modifican en el camino.</li>
+				<li>Disponibilidad: la recepción y acceso es correcto.</li>
+			</ul>
+			<h3>2. Interceptación</h3>
+			<p>acceso a la información por parte de personas no autorizadas. Uso de privilegios no adquiridos.</p>
+			<ul>
+				<li>Detección difícil, no deja huellas.</li>
+					<p>Se garantiza:</p>
+					<ul>
+						<li>Integridad.</li>
+						<li>Disponibilidad.</li>
+					</ul>
+				<p>No se garantiza:</p>
+					<ul>
+						<li>Confidencialidad: es posible que alguien no autorizado acceda a la información</li>
+					</ul>
+			</ul>
+			<p>Ejemplos:</p>
+			<ul>
+				<li>Copias ilícitas de programas</li>
+				<li>Escucha en línea de datos</li>
+			</ul>
+			<h3>3. Modificación</h3>
+			<p>acceso no autorizado que cambia el entorno para su beneficio.</p>
+			<ul>
+				<li>Detección difícil según circunstancias.</li>
+				<p>Se garantiza.</p>
+					<ul>
+						<li>Disponibilidad: la recepción es correcta.</li>
+					</ul>
+				<p>No se garantiza:</p>
+					<ul>
+						<li>Integridad: los datos enviados pueden ser modificados en el camino.</li>
+						<li>Confidencialidad: alguien no autorizado accede a la información.</li>
+					</ul>
+			</ul>
+			<p>Ejemplos:</p>
+			<ul>
+				<li>Modificación de bases de datos</li>
+				<li>Modificación de elementos del HW</li>
+			</ul>
+			<h3>4. Interrupción</h3>
+			<p>puede provocar que un objeto del sistema se pierda, quede no utilizable o no disponible.</p>
+			<ul>
+				<li>Detección inmediata.</li>
+				<p>Se garantiza:</p>
+				<ul>
+					<li>Confidencialidad: nadie no autorizado accede a la información.</li>
+					<li>Integridad: los datos enviados no se modifican en el camino.</li>
+				</ul>
+				<p>No se garantiza:</p>
+				<ul>
+					<li>Disponibilidad: puede que la recepción no sea correcta.</li>
+				</ul>
+			</ul>
+			<p>Ejemplos</p>
+			<ul>
+				<li>Destrucción del hardware</li>
+				<li>Borrado de programas, datos</li>
+				<li>Fallos en el sistema operativo</li>
+			</ul>
+			<h3>5. Fabricación</h3>
+			<p>puede considerarse como un caso concreto de modificación ya
+			que se consigue un objeto similar al atacado de forma que no resulte sencillo distinguir entre objeto original y el fabricado.</p>
+			<ul>
+				<li>Detección difícil. Delitos de falsificación.</li>
+				<p>En este caso se garantiza:</p>
+				<ul>
+					<li>Confidencialidad: nadie no autorizado accede a la información.</li>
+					<li>Integridad: los datos enviados no se modifican en el camino.</li>
+					<li>Disponibilidad: la recepción es correcta.</li>
+				</ul>
+			</ul>
+			<h2>Amenazas provocadas por personas</h2>
+			<p>La mayor parte de los ataques a los sistemas informáticos son provocados, intencionadamente o no, 	por las personas.</p>
+			<h3>¿Qué se busca?</h3>
+			<p>En general lo que se busca es conseguir un nivel de privilegio en el sistema que les permita realizar acciones sobre el sistema no autorizadas.</p>
+			<p>Podemos clasificar las personas 'atacantes' en dos grupos:</p>
+			<ul>
+				<li>Activos: su objetivo es hacer daño de alguna forma. Eliminar información, modificar o sustraerla para su provecho.</li>
+				<li>2.	Pasivos: su objetivo es curiosear en el sistema.
+				Repasamos ahora todos los tipos de personas que pueden constituir una amenaza para el sistema informático sin entrar en detalles:</li>
+				<ul>
+					<li>Personal de la propia organización</li>
+					<li>Ex-empleados</li>
+					<li>Curiosos</li>
+					<li>Crackers</li>
+					<li>Terroristas</li>
+					<li>Intrusos remunerados</li>
+				</ul>
+			</ul>
+			<h2>Amenazas físicas</h2>
+			<p>Dentro de las amenazas físicas podemos englobar cualquier error o daño en el hardware que se puede presentar en cualquier momento. Por ejemplo, daños en discos duros, en los procesadores, errores de funcionamiento de la memoria, etc. Todos ellos hacen que la información o no esté accesible o no sea fiable.</p>
+			<p>Otro tipo de amenazas físicas son las catástrofes naturales. Por ejemplo, hay zonas geográficas del planeta en las que las probabilidades de sufrir terremotos, huracanes, inundaciones, etc. Son mucho más elevadas.</p>
+			<p>En estos casos en los que es la propia Naturaleza la que ha provocado el desastre de seguridad, no por ello hay que descuidarlo e intentar prever al máximo este tipo de situaciones.</p>
+			<p>Hay otro tipo de catástrofes que se conocen como de riesgo poco probable. Dentro de este grupo tenemos los ataques nucleares, impactos de meteoritos, etc. y que, aunque se sabe que están ahí, las probabilidades de que se desencadenen son muy bajas y en principio no se toman medidas contra ellos.</p>
+			<p>Ya hemos explicado el concepto de amenaza física. Vamos a conocer ahora cuáles son las principales amenazas físicas de un sistema informático.</p>
+			<h2>Tipos de amenazas físicas</h2>
+			<p>Las amenazas físicas las podemos agrupar en las producidas por:</p>
+			<ul>
+				<li>Acceso físico</li>
+				<p>Hay que tener en cuenta que cuando existe acceso físico a un recurso ya no existe seguridad sobre él. Supone entonces un gran riesgo y probablemente con un impacto muy alto.</p>
+				<p>A menudo se descuida este tipo de seguridad.</p>
+				<p>El ejemplo típico de este tipo es el de una organización que dispone de tomas de red que no están controladas, son libres.</p>
+				<li>Radiaciones electromagnéticas</li>
+				<p>Sabemos que cualquier aparato eléctrico emite radiaciones y que dichas radiaciones se pueden capturar y reproducir, si se dispone del equipamiento adecuado. Por ejemplo, un posible atacante podría 'escuchar' los datos que circulan por el cable telefónico.</p>
+				<p>Es un problema que hoy día con las redes wifi desprotegidas, por ejemplo, vuelve a estar vigente.</p>
+				<li>Desastres naturales</li>
+				<p>Respecto a terremotos el riesgo es reducido en nuestro entorno, ya que España no es una zona sísmica muy activa. Pero son fenómenos naturales que si se produjeran tendrían un gran impacto y no solo en términos de sistemas informáticos, sino en general para la sociedad.</p>
+				<p>Siempre hay que tener en cuenta las características de cada zona en particular. Las posibilidades de que ocurra una inundación son las mismas en todas las regiones de España. Hay que conocer bien el entorno en el que están físicamente los sistemas informáticos.</p>
+				<li>Desastres del entorno</li>
+				<p>Dentro de este grupo estarían incluidos sucesos que, sin llegar a ser desastres naturales, pueden tener un impacto igual de importante si no se disponen de las medidas de salvaguarda listas y operativas.</p>
+				<p>Puede ocurrir un incendio o un apagón y no tener bien definidas las medidas a tomar en estas situaciones o simplemente no tener operativo el SAI que debería responder de forma inmediata al corte de suministro eléctrico.</p>
+			</ul>
+			<h2>Descripcion de algunas amenazas físicas</h2>
+			<p>Veamos algunas amenazas físicas a las que se puede ver sometido un CPD y alguna sugerencia para evitar este tipo de riesgo.</p>
+			<ul>
+				<li>Por acciones naturales: incendio, inundación, condiciones climatológicas, señales de radar, instalaciones eléctricas, ergometría, …</li>
+				<li>Por acciones hostiles: robo, fraude, sabotaje,...</li>
+				<li>•	Por control de accesos: utilización de guardias, utilización de detectores de metales, utilización de sistemas biométricos, seguridad con animales, protección electrónica,...</li>
+			</ul>
+			<p>Como se puede comprobar, evaluar y controlar permanentemente la seguridad física del edificio que alberga el CPD es la base para comenzar a integrar la seguridad como una función primordial dentro de cualquier organismo.</p>
+			<p>Tener controlado el ambiente y acceso físico permite:</p>
+			<ul>
+				<li>disminuir siniestros</li>
+				<li>trabajar mejor manteniendo la sensación de seguridad</li>
+				<li>descartar falsas hipótesis si se produjeran incidentes</li>
+				<li>tener los medios para luchar contra accidentes</li>
+			</ul>
+			<p>Las distintas alternativas enumeradas son suficientes para conocer en todo momento el estado del medio en el que se trabaja y así tomar decisiones en base a la información ofrecida por los medios de control adecuados.</p>
+			<p>Estas decisiones pueden variar desde el conocimiento de las áreas que recorren ciertas personas hasta la extremo de evacuar el edificio en caso de accidentes.</p>
+</div>
+<div class="sidebar" id="sidebar">
+		<img class="center_img" src="img/soluciones-seguridad.png" alt="soluciones-seguridad">
+		<img class="center_img" src="img/carpetaseguridad.png" alt="consecuencia">
+		<img class="center_img" src="img/intercepcion.png" alt="intercepcion">
+		<img class="center_img" src="img/modificacion.png" alt="modificacion">
+		<img class="center_img" src="img/interrupcion.png" alt="interrupcion">
+		<img class="center_img" src="img/fabricacion.png" alt="fabricacion">
+		<img class="center_img" src="img/antivirus.png" alt="antivirus">
+		<img class="center_img" src="img/featured-image.png" alt="featured-image">
+		<img class="center_img" src="img/seguridad-informatica.png" alt="sguridad-informatica">	
+</div>
